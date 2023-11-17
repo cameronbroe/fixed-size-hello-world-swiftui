@@ -15,7 +15,9 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
-        .padding()
+        .fixedSize()
+        .frame(width: 200, height: 200)
+        .navigationTitle("hello_world")
     }
 }
 
